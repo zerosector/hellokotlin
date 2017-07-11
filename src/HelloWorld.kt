@@ -4,7 +4,7 @@
 fun main(args: Array<String>) {
     val location = "World"
     val msg = "Hello' $location!"
-    for (n in (0..10).step(2).reversed())
+    for (n in (0..20).step(2).reversed())
         println(n)
     println(msg)
 }
